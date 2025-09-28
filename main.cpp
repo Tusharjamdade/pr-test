@@ -10,7 +10,6 @@ void printFactorial(int n) {
     cout << "Factorial of " << n << " is " << factorial << endl;
 }
 
-// Function to generate and print Fibonacci series up to n terms
 void printFibonacci(int n) {
     if (n <= 0) {
         cout << "Fibonacci series is not defined for non-positive terms." << endl;
