@@ -21,6 +21,7 @@ public class Main {
         long first = 0, second = 1;
         System.out.print("Fibonacci series up to " + n + " terms: ");
 
+        //loop used 
         for (int i = 1; i <= n; i++) {
             System.out.print(first + " ");
             long next = first + second;
@@ -30,12 +31,14 @@ public class Main {
         System.out.println();
     }
 
+    // main function
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter a positive integer: ");
         int number = sc.nextInt();
 
+        //condition checked 
         if (number < 0) {
             System.out.println("Factorial and Fibonacci series are not defined for negative numbers.");
         } else {
